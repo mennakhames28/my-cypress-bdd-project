@@ -72,17 +72,3 @@ This project is licensed under the MIT License.
 
 ---
 
-Feel free to contribute and open issues!
-
----
-
-*Created by YOUR\_NAME*
-
-```
-
----
-
-**Replace** `YOUR_USERNAME`, `YOUR_REPO`, and `YOUR_NAME` with your info.
-
-If you want, I can help customize it further or generate one with badges (build status, coverage, etc.).
-```
