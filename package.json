@@ -6,14 +6,11 @@
     "test": "cypress open",
     "test:headless": "cypress run --browser chrome"
   },
-  "dependencies": {
-    "cypress": "^14.3.3",
-    "@cypress/cucumber": "^9.0.0"
-  },
   "devDependencies": {
-    "@badeball/cypress-cucumber-preprocessor": "^15.3.0",
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
-    "esbuild": "^0.19.11"
+    "cypress": "^14.3.3",
+    "esbuild": "^0.25.4"
   },
   "keywords": [],
   "author": "",
