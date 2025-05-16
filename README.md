@@ -1,24 +1,21 @@
-```markdown
-# My Cypress BDD Project
+## My Cypress BDD Project
 
 This project demonstrates automated end-to-end testing of a web application using:
 
-- **Cypress** as the test runner
+ **Cypress** as the test runner
 - **Cucumber (BDD)** for behavior-driven development with `.feature` files and step definitions
 - **Page Object Model** for cleaner test code organization
 - **Custom Commands** for reusable Cypress commands
 - **GitHub Actions** for CI/CD to run tests headlessly on push and pull requests
 
-## Setup & Installation
-
+Setup & Installation
 Make sure you have [Node.js](https://nodejs.org/) installed.
 
 Clone the repository:
-
 ```bash
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
 cd YOUR_REPO
-````
+```
 
 Install dependencies:
 
