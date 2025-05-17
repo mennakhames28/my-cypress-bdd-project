@@ -15,5 +15,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "assert": "^2.1.0",
+    "path-browserify": "^1.0.1"
+  }
 }
