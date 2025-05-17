@@ -1,6 +1,6 @@
-Feature: Test Case 24 - Placeholder
+Feature: Download Invoice
 
-  Scenario: Execute test case 24
-    Given I am on the home page
-    When I perform actions for test case 24
-    Then I should see expected results for test case 24
+  Scenario: Download after order
+    Given I place an order
+    When I go to order history
+    Then I can download invoice

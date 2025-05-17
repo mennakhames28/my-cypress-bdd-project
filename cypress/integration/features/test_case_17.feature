@@ -1,6 +1,6 @@
-Feature: Test Case 17 - Placeholder
+Feature: Remove from Cart
 
-  Scenario: Execute test case 17
-    Given I am on the home page
-    When I perform actions for test case 17
-    Then I should see expected results for test case 17
+  Scenario: Remove item
+    Given I add a product to the cart
+    When I remove the product
+    Then cart should be empty

@@ -1,6 +1,6 @@
-Feature: Test Case 25 - Placeholder
+Feature: Delete Account
 
-  Scenario: Execute test case 25
-    Given I am on the home page
-    When I perform actions for test case 25
-    Then I should see expected results for test case 25
+  Scenario: Remove my account
+    Given I am logged in
+    When I delete my account
+    Then I should see confirmation

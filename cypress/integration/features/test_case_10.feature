@@ -1,6 +1,6 @@
-Feature: Test Case 10 - Placeholder
+Feature: Home Subscription
 
-  Scenario: Execute test case 10
-    Given I am on the home page
-    When I perform actions for test case 10
-    Then I should see expected results for test case 10
+  Scenario: Verify subscription on home page
+    Given I scroll to the footer
+    When I enter an email and click Subscribe
+    Then I should see "You have been successfully subscribed!"

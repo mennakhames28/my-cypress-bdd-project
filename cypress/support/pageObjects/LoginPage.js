@@ -3,21 +3,17 @@ class LoginPage {
     cy.visit('/login');
   }
 
-  enterUsername(username) {
-    cy.get('input[data-qa="login-email"]').type(username);
+  enterEmail(email) {
+    cy.get('[data-qa="login-email"]').clear().type(email);
   }
 
   enterPassword(password) {
-    cy.get('input[data-qa="login-password"]').type(password);
+    cy.get('[data-qa="login-password"]').clear().type(password);
   }
 
-  submit() {
-    cy.get('button[data-qa="login-button"]').click();
-  }
-
-  getSuccessMessage() {
-    return cy.get('a').contains('Logged in as');
+  clickLogin() {
+    cy.get('[data-qa="login-button"]').click();
   }
 }
 
-export default LoginPage;
+export default new LoginPage();

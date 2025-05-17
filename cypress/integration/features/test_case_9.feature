@@ -1,6 +1,6 @@
-Feature: Test Case 9 - Placeholder
+Feature: Search Product
 
-  Scenario: Execute test case 9
-    Given I am on the home page
-    When I perform actions for test case 9
-    Then I should see expected results for test case 9
+  Scenario: Search for a product
+    Given I am on the Products page
+    When I search for "dress"
+    Then I should see relevant results

@@ -1,6 +1,8 @@
-Feature: Test Case 1 - Placeholder
+Feature: Register User
 
-  Scenario: Execute test case 1
+  Scenario: Register a new user
     Given I am on the home page
-    When I perform actions for test case 1
-    Then I should see expected results for test case 1
+    When I click on Signup/Login
+    And I enter name and email
+    And I click Signup
+    Then I should see "Enter Account Information"

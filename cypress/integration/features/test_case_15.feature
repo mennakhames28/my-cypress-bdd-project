@@ -1,6 +1,7 @@
-Feature: Test Case 15 - Placeholder
+Feature: Order Without Login
 
-  Scenario: Execute test case 15
-    Given I am on the home page
-    When I perform actions for test case 15
-    Then I should see expected results for test case 15
+  Scenario: Place order before signing up
+    Given I add products to cart
+    When I proceed to checkout
+    And I register during checkout
+    Then I should be able to complete payment and place order

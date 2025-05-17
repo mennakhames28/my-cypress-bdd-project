@@ -1,6 +1,6 @@
-Feature: Test Case 8 - Placeholder
+Feature: View All Products
 
-  Scenario: Execute test case 8
+  Scenario: Navigate to All Products page
     Given I am on the home page
-    When I perform actions for test case 8
-    Then I should see expected results for test case 8
+    When I click on Products
+    Then I should see the product list

@@ -1,6 +1,6 @@
-Feature: Test Case 4 - Placeholder
+Feature: Logout User
 
-  Scenario: Execute test case 4
-    Given I am on the home page
-    When I perform actions for test case 4
-    Then I should see expected results for test case 4
+  Scenario: Logout from account
+    Given I am logged in
+    When I click Logout
+    Then I should be redirected to login page

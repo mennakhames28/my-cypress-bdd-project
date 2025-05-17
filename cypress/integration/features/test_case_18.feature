@@ -1,6 +1,6 @@
-Feature: Test Case 18 - Placeholder
+Feature: Category Navigation
 
-  Scenario: Execute test case 18
-    Given I am on the home page
-    When I perform actions for test case 18
-    Then I should see expected results for test case 18
+  Scenario: Browse categories
+    Given I open the Categories menu
+    When I select "Women > Dress"
+    Then I should see products under "Dress"

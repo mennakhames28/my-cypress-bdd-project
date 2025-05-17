@@ -1,6 +1,8 @@
-Feature: Test Case 6 - Placeholder
+Feature: Contact Us Form
 
-  Scenario: Execute test case 6
-    Given I am on the home page
-    When I perform actions for test case 6
-    Then I should see expected results for test case 6
+  Scenario: Submit the contact us form
+    Given I am on the Contact Us page
+    When I fill in name, email, subject, and message
+    And I upload a file
+    And I click Submit
+    Then I should see success message

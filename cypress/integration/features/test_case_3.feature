@@ -1,6 +1,8 @@
-Feature: Test Case 3 - Placeholder
+Feature: Invalid Login
 
-  Scenario: Execute test case 3
+  Scenario: Login with wrong credentials
     Given I am on the home page
-    When I perform actions for test case 3
-    Then I should see expected results for test case 3
+    When I click on Signup/Login
+    And I enter invalid email and password
+    And I click Login
+    Then I should see error message "Your email or password is incorrect!"

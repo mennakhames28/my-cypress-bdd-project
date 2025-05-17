@@ -1,6 +1,6 @@
-Feature: Test Case 7 - Placeholder
+Feature: View Test Cases Page
 
-  Scenario: Execute test case 7
+  Scenario: Navigate to Test Cases
     Given I am on the home page
-    When I perform actions for test case 7
-    Then I should see expected results for test case 7
+    When I click on Test Cases
+    Then I should be on the Test Cases page

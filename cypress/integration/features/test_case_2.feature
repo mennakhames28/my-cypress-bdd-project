@@ -1,6 +1,8 @@
-Feature: Test Case 2 - Placeholder
+Feature: Login User
 
-  Scenario: Execute test case 2
+  Scenario: Login with valid credentials
     Given I am on the home page
-    When I perform actions for test case 2
-    Then I should see expected results for test case 2
+    When I click on Signup/Login
+    And I enter valid email and password
+    And I click Login
+    Then I should be logged in as user

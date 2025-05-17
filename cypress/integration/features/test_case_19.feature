@@ -1,6 +1,6 @@
-Feature: Test Case 19 - Placeholder
+Feature: Brand Filter
 
-  Scenario: Execute test case 19
-    Given I am on the home page
-    When I perform actions for test case 19
-    Then I should see expected results for test case 19
+  Scenario: Filter by brand
+    Given I open brand list
+    When I click "Polo"
+    Then I should see all Polo brand products

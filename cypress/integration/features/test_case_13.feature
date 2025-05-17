@@ -1,6 +1,6 @@
-Feature: Test Case 13 - Placeholder
+Feature: Product Quantity in Cart
 
-  Scenario: Execute test case 13
-    Given I am on the home page
-    When I perform actions for test case 13
-    Then I should see expected results for test case 13
+  Scenario: Verify quantity
+    Given I add multiple quantities of a product
+    When I view the cart
+    Then the quantity should match what I selected

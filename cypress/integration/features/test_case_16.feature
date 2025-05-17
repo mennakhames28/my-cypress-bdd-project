@@ -1,6 +1,8 @@
-Feature: Test Case 16 - Placeholder
+Feature: Order Logout and Re-login
 
-  Scenario: Execute test case 16
-    Given I am on the home page
-    When I perform actions for test case 16
-    Then I should see expected results for test case 16
+  Scenario: Logout before placing order, login again and complete
+    Given I login and add items to cart
+    When I logout
+    And I login again
+    Then my cart should still have items
+    And I can place the order

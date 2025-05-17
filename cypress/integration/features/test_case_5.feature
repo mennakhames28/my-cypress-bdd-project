@@ -1,6 +1,8 @@
-Feature: Test Case 5 - Placeholder
+Feature: Register with Existing Email
 
-  Scenario: Execute test case 5
+  Scenario: Try to register with existing email
     Given I am on the home page
-    When I perform actions for test case 5
-    Then I should see expected results for test case 5
+    When I click on Signup/Login
+    And I enter existing email and name
+    And I click Signup
+    Then I should see error "Email Address already exist!"

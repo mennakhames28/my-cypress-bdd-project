@@ -1,6 +1,8 @@
-Feature: Test Case 14 - Placeholder
+Feature: Order with Registration
 
-  Scenario: Execute test case 14
-    Given I am on the home page
-    When I perform actions for test case 14
-    Then I should see expected results for test case 14
+  Scenario: Place an order after signup
+    Given I register as a new user
+    And I add products to cart
+    When I proceed to checkout
+    And I enter payment details
+    Then the order should be confirmed

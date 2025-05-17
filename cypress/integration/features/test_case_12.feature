@@ -1,6 +1,6 @@
-Feature: Test Case 12 - Placeholder
+Feature: Add Product to Cart
 
-  Scenario: Execute test case 12
-    Given I am on the home page
-    When I perform actions for test case 12
-    Then I should see expected results for test case 12
+  Scenario: Add product to cart
+    Given I am on the Products page
+    When I add a product to the cart
+    Then I should see the product in cart

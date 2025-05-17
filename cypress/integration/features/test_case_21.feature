@@ -1,6 +1,6 @@
-Feature: Test Case 21 - Placeholder
+Feature: Product Review
 
-  Scenario: Execute test case 21
-    Given I am on the home page
-    When I perform actions for test case 21
-    Then I should see expected results for test case 21
+  Scenario: Submit a review
+    Given I am on a product detail page
+    When I fill review form and submit
+    Then I should see confirmation

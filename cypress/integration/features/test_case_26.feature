@@ -1,6 +1,5 @@
-Feature: Test Case 26 - Placeholder
+Feature: Contact Navigation
 
-  Scenario: Execute test case 26
-    Given I am on the home page
-    When I perform actions for test case 26
-    Then I should see expected results for test case 26
+  Scenario: Navigate to contact us
+    Given I click on Contact Us
+    Then I should land on contact form page

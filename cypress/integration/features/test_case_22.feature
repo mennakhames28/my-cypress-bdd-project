@@ -1,6 +1,6 @@
-Feature: Test Case 22 - Placeholder
+Feature: Recommended Products
 
-  Scenario: Execute test case 22
-    Given I am on the home page
-    When I perform actions for test case 22
-    Then I should see expected results for test case 22
+  Scenario: Add recommended item
+    Given I scroll to recommended items
+    When I add one to cart
+    Then it should appear in cart

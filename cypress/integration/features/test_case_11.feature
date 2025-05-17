@@ -1,6 +1,6 @@
-Feature: Test Case 11 - Placeholder
+Feature: Subscription in Cart
 
-  Scenario: Execute test case 11
-    Given I am on the home page
-    When I perform actions for test case 11
-    Then I should see expected results for test case 11
+  Scenario: Subscribe from cart page
+    Given I navigate to Cart page
+    When I subscribe with email
+    Then I should see success subscription message
